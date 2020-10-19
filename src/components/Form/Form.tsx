@@ -28,23 +28,23 @@ const Form = () : ReactElement => {
     <React.Fragment>
       <div className={styles.container}>
       <div className={styles.welcome}>
-        Welcome { name }!
+        Selamat datang { name }!
       </div>
       <div  className={styles.formContainer}>
         <div className={styles.field}>
           <div className= {styles.title}>
-            First Name
+            Nama depan
           </div>
           <input type="text" value={first} className={styles.input} onChange={(e) => setFirst(e.target.value)}/>
         </div>
         <div className={styles.field}>
           <div className= {styles.title}>
-            Last Name
+            Nama belakang
           </div>
           <input type="text" value={last} className={styles.input} onChange={(e) => setLast(e.target.value)}/>
         </div>
         <div className={styles.btn} onClick={() => postData(first, last)}>
-          Call API !
+          Call API
         </div>
       </div>
     </div>
