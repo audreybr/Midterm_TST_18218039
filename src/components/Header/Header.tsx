@@ -13,7 +13,7 @@ const Header = () : ReactElement => {
       <div className={styles.title}>
         18218039
       </div>
-      <div className={styles.title}>
+      <div className={styles.titlekecil}>
         Scroll ke bawah untuk mengisi
       </div>
     </div>
