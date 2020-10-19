@@ -15,7 +15,7 @@ const Form = () : ReactElement => {
       last
     }
 
-    const { data : { name }} = await axios.post('https://uts-tst2020.azurewebsites.net/api/AddMessage', payload)
+    const { data : { name }} = await axios.post('https://uts-tst-2020.azurewebsites.net/api/AddMessage', payload)
     
     setName(name)
     setFirst('')
