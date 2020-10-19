@@ -13,6 +13,9 @@ const Header = () : ReactElement => {
       <div className={styles.title}>
         18218039
       </div>
+      <div className={styles.title}>
+        Scroll ke bawah untuk mengisi
+      </div>
     </div>
   )
 }
