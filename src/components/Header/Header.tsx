@@ -3,7 +3,7 @@ import styles from './Header.module.scss'
 
 const Header = () : ReactElement => {
   return (
-    <div className={styles.container}>
+    <div className={styles.header}>
       <div className={styles.title}>
         UTS Teknologi Sistem Terintegrasi II3160
       </div>

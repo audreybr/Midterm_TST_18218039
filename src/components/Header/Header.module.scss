@@ -16,8 +16,23 @@
   }
 }*/
 
-.header {
+/*.header {
   overflow: hidden;
   background-color: thistle;
   padding: 20px 10px;
+}*/
+
+.header {
+  background-color:thistle;
+  color:midnightblue;
+  padding: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+
+  .title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: saddlebrown;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+  }
 }
